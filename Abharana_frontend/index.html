@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#031f19">
+  <title>Abharana </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="images/css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html" aria-label="Abharana home"><span>ABHARANA</span><small>FINE JEWELLERY</small></a>
+    <nav class="nav-links" id="desktopNav">
+      <a class="active" href="index.html">Home</a>
+      <a href="pages/shop.html">Collections</a>
+      <a href="pages/about.html">Our Story</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+    <div class="nav-icons">
+      <!-- <button class="icon-button" aria-label="Open search" onclick="openSearch()">⌕</button> -->
+      <a class="whatsapp-nav" href="https://wa.me/916238534308?text=Hello%20Abharana%2C%20I%27m%20interested%20in%20your%20jewellery%20collection." target="_blank" rel="noopener noreferrer" aria-label="Contact Abharana on WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.55 0 .2 5.35.2 11.93c0 2.1.55 4.16 1.6 5.97L.1 24l6.25-1.64a11.94 11.94 0 0 0 5.77 1.48h.01c6.58 0 11.93-5.35 11.93-11.93 0-3.19-1.24-6.18-3.54-8.43ZM12.13 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.71.97.99-3.62-.23-.37a9.87 9.87 0 0 1-1.52-5.26c0-5.48 4.46-9.94 9.94-9.94a9.87 9.87 0 0 1 7.04 2.92 9.87 9.87 0 0 1 2.91 7.03c0 5.48-4.46 9.94-9.94 9.94Zm5.45-7.45c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.47-2.4-1.49-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.5 1.7.64.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+      </a>
+      <button class="icon-button menu-btn" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" aria-label="Close menu" onclick="toggleMenu()">×</button>
+    <a href="index.html">Home</a><a href="pages/shop.html">Collections</a><a href="pages/about.html">Our Story</a><a href="pages/contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">THE NEW SIGNATURE COLLECTION</p>
+        <h1>Jewellery<br><em>with a story.</em></h1>
+        <p class="hero-text">Discover timeless pieces designed to celebrate life's most unforgettable moments.</p>
+        <a href="pages/shop.html" class="gold-button">EXPLORE COLLECTION</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Premium jewellery editorial"></div>
+    </section>
+
+    <section class="intro section-padding">
+      <p class="eyebrow">ABHARANA FINE JEWELLERY</p>
+      <h2>Crafted for those who<br><em>cherish the extraordinary.</em></h2>
+      <p class="intro-text">Every Abharana creation is thoughtfully designed, meticulously crafted and made to become part of your story for generations to come.</p>
+    </section>
+
+    <section class="categories section-padding">
+      <div class="section-heading"><div><p class="eyebrow">DISCOVER</p><h2>Explore our <em>collections</em></h2></div><a href="pages/shop.html" class="text-link">View all pieces →</a></div>
+      <div class="category-grid">
+        <a href="pages/shop.html?category=necklaces" class="category-card"><img src="images/necklace.webp" alt="Luxury necklace"><div class="category-overlay"><p>01</p><h3>Necklaces</h3><span>Discover →</span></div></a>
+        <a href="pages/shop.html?category=rings" class="category-card"><img src="images/ring.webp" alt="Luxury ring"><div class="category-overlay"><p>02</p><h3>Rings</h3><span>Discover →</span></div></a>
+        <a href="pages/shop.html?category=earrings" class="category-card"><img src="images/earrings.webp" alt="Luxury earrings"><div class="category-overlay"><p>03</p><h3>Earrings</h3><span>Discover →</span></div></a>
+        <a href="pages/shop.html?category=bracelets" class="category-card"><img src="images/bracelet.webp" alt="Luxury bracelet"><div class="category-overlay"><p>04</p><h3>Bracelets</h3><span>Discover →</span></div></a>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="featured-image"><img src="images/collection-1.webp" alt="Abharana signature collection"></div>
+      <div class="featured-content"><p class="eyebrow">THE Abharana EDIT</p><h2>Quiet luxury.<br><em>Timeless beauty.</em></h2><p>A carefully curated collection of refined jewellery created for effortless elegance, from everyday moments to extraordinary occasions.</p><a href="pages/shop.html" class="outline-button">DISCOVER THE EDIT</a></div>
+    </section>
+
+    
+
+    <section class="story"><div class="story-content"><p class="eyebrow">THE ABHARANA PHILOSOPHY</p><h2>Beauty that<br><em>lasts beyond time.</em></h2><p>We believe true luxury isn't about excess. It is about intention, craftsmanship and the quiet confidence of wearing something made beautifully.</p><a href="pages/about.html" class="text-link">Discover our story →</a></div></section>
+
+  </main>
+
+  
+
+  <footer><div class="footer-main"><div class="footer-brand"><a class="logo" href="index.html"><span>ABHARANA</span><small>FINE JEWELLERY</small></a><p>Timeless jewellery, thoughtfully crafted for life's most beautiful moments.</p></div><div class="footer-column"><h4>SHOP</h4><a href="pages/shop.html">All Jewellery</a><a href="pages/shop.html?category=necklaces">Necklaces</a><a href="pages/shop.html?category=rings">Rings</a><a href="pages/shop.html?category=earrings">Earrings</a></div><div class="footer-column"><h4>ABOUT</h4><a href="pages/about.html">Craftsmanship</a></div><div class="footer-column"><h4>HELP</h4><a href="pages/contact.html">Contact</a><a href="https://wa.me/916238534308?text=Hello%20Abharana%2C%20I%20need%20help." target="_blank" rel="noopener noreferrer">WhatsApp us</a></div></div><div class="footer-bottom"><span>© 2026 Abharana Fine Jewellery</span><div><a href="#">Instagram</a><a href="admin.html" style="margin-left:18px;font-size:10px;letter-spacing:1px;opacity:.72">Admin Login</a></div></div></footer>
+
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true"><button class="close-search" aria-label="Close search" onclick="closeSearch()">×</button><div class="search-box"><p>SEARCH Abharana</p><input type="text" id="searchInput" placeholder="Search jewellery..." aria-label="Search jewellery"></div></div>
+
+  <a class="whatsapp-float" href="https://wa.me/916238534308?text=Hello%20Abharana%2C%20I%27m%20interested%20in%20your%20jewellery%20collection." target="_blank" rel="noopener noreferrer" aria-label="Chat with Abharana on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.8 11.8 0 0 0 12.13 0C5.55 0 .2 5.35.2 11.93c0 2.1.55 4.16 1.6 5.97L.1 24l6.25-1.64a11.94 11.94 0 0 0 5.77 1.48h.01c6.58 0 11.93-5.35 11.93-11.93 0-3.19-1.24-6.18-3.54-8.43ZM12.13 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.71.97.99-3.62-.23-.37a9.87 9.87 0 0 1-1.52-5.26c0-5.48 4.46-9.94 9.94-9.94a9.87 9.87 0 0 1 7.04 2.92 9.87 9.87 0 0 1 2.91 7.03c0 5.48-4.46 9.94-9.94 9.94Zm5.45-7.45c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.47-2.4-1.49-.89-.79-1.49-1.77-1.67-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.5 1.7.64.72.23 1.37.2 1.88.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg>
+  </a>
+  <script src="js/script.js"></script>
+
+
+
+
+
+
+
+<script src="js/config.js"></script>
+<script>
+(() => {
+  const API_URL = window.ABHARANA_API_URL || "http://127.0.0.1:8000";
+  const grid = document.getElementById("homeProductGrid");
+  if (!grid) return;
+
+  function escapeText(value) {
+    return String(value ?? "");
+  }
+  function makeCard(product) {
+    const card = document.createElement("article");
+    card.className = "product-card";
+    const imageWrap = document.createElement("div");
+    imageWrap.className = "product-image";
+    const img = document.createElement("img");
+    const rawImage = product.image_url || product.image || "";
+    img.src = rawImage.startsWith("/uploads/") ? `${API_URL}${rawImage}` : rawImage;
+    img.alt = product.name || "Abharana jewellery";
+    imageWrap.appendChild(img);
+
+    const info = document.createElement("div");
+    info.className = "product-info";
+    const category = document.createElement("p");
+    category.className = "product-category";
+    category.textContent = String(product.category || "OTHER").replaceAll("_", " ");
+    const title = document.createElement("h3");
+    title.textContent = product.name || "Abharana Jewellery";
+    const price = document.createElement("p");
+    price.className = "price";
+    price.textContent = `₹${Number(product.price || 0).toLocaleString("en-IN")}`;
+    const enquiry = document.createElement("a");
+    enquiry.className = "whatsapp-product";
+    const message = `Hello Abharana, I'm interested in ${product.name || "this jewellery piece"}.`;
+    enquiry.href = `https://wa.me/916238534308?text=${encodeURIComponent(message)}`;
+    enquiry.target = "_blank";
+    enquiry.rel = "noopener noreferrer";
+    enquiry.setAttribute("aria-label", `Enquire about ${product.name || "jewellery"} on WhatsApp`);
+    enquiry.textContent = "Enquire ↗";
+    info.append(category, title, price, enquiry);
+    card.append(imageWrap, info);
+    return card;
+  }
+
+  fetch(`${API_URL}/api/products`)
+    .then(response => {
+      if (!response.ok) throw new Error("Product API unavailable");
+      return response.json();
+    })
+    .then(data => {
+      const products = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : []);
+      if (!products.length) return; // keep the original curated cards if database is empty
+      grid.replaceChildren(...products.slice(0, 8).map(makeCard));
+    })
+    .catch(error => {
+      console.info("Showing curated homepage products; backend products could not be loaded.", error);
+    });
+})();
+</script>
+
+
+</body>
+</html>
+
+
+
+
+

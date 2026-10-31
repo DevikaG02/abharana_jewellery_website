@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded files
+abharana_backend/uploads/*
+!abharana_backend/uploads/.gitkeep
+
+# Editor files
+.vscode/
+.DS_Store
+Thumbs.db
